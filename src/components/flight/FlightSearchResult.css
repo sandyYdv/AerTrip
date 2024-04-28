@@ -1,0 +1,70 @@
+.flight-search-result-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  
+  .flight-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .departure,
+  .arrival {
+    position: relative;
+    text-align: center;
+    margin: 0 20px 0 250px;
+  }
+  
+  .departure h3,
+  .arrival h3
+   {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .departure p,
+  .arrival p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .duration {
+    position: relative;
+    left:120px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .price h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .book-btn {
+    background-color: #00E3A5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background-color: #00E3A5;
+  }
+  
