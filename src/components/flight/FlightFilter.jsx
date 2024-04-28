@@ -62,7 +62,6 @@ const FlightFilter = ({ flight }) => {
       if (sortBy === "price") {
         return a.farepr - b.farepr;
       } else if (sortBy === "duration") {
-        // Assuming duration is in 'xh ym' format, convert it to minutes for comparison
         return a.ft - b.ft;
       } else if (sortBy === "depart") {
         const [aHours, aMinutes] = a.dt.split(":");
